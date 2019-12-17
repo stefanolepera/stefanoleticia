@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import clsx from 'clsx';
 import { withStyles } from '@material-ui/core/styles';
+import Typography from '../components/Typography';
 import Container from '@material-ui/core/Container';
 
 const styles = theme => ({
@@ -55,6 +56,14 @@ const LandingLayout = props => {
     return (
         <section className={classes.root}>
             <Container className={classes.container}>
+                <Typography
+                    color="inherit"
+                    align="center"
+                    variant="h2"
+                    marked="center"
+                >
+                    Stefano & Leticia
+                </Typography>
                 {children}
                 <div className={classes.backdrop} />
                 <div

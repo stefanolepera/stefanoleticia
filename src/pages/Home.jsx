@@ -8,11 +8,11 @@ import React, { useState } from 'react';
 // import ProductValues from './modules/views/ProductValues';
 // import ProductHowItWorks from './modules/views/ProductHowItWorks';
 // import ProductCTA from './modules/views/ProductCTA';
-import HeaderBar from '../views/HeaderBar';
+import Header from '../views/Header';
 import Landing from '../views/Landing';
 
 const Home = () => {
-    const [language, setLanguage] = useState('en');
+    const [language, setLanguage] = useState('it');
 
     const changeLanguage = lang => {
         console.log('lang', lang);
@@ -21,7 +21,8 @@ const Home = () => {
 
     return (
         <>
-            <HeaderBar changeLanguage={changeLanguage} />
+            {/* <HeaderBar changeLanguage={changeLanguage} /> */}
+            <Header language={language} changeLanguage={changeLanguage} />
             <Landing />
             {/* <ProductHero />
             <ProductValues />
