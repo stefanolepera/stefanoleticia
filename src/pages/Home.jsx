@@ -8,8 +8,8 @@ import React, { useState } from 'react';
 // import ProductValues from './modules/views/ProductValues';
 // import ProductHowItWorks from './modules/views/ProductHowItWorks';
 // import ProductCTA from './modules/views/ProductCTA';
-import Header from '../views/Header';
-import Landing from '../views/Landing';
+import Header from '../views/Header/Header';
+import Landing from '../views/Landing/Landing';
 
 const Home = () => {
     const [language, setLanguage] = useState('it');

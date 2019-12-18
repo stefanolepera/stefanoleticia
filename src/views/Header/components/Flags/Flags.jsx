@@ -1,6 +1,6 @@
 import React from 'react';
 import { StyledFlags, StyledFlag } from './Flags.style';
-import { languages } from '../../constants/locale';
+import { languages } from '../../../../constants/locale';
 
 const Flags = ({ language, changeLanguage }) => {
     return (

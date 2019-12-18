@@ -6,7 +6,7 @@ export const StyledLanding = styled.div`
     min-height: 500px;
     background-image: url("images/landing.jpg");
     background-position: center;
-    top: 0;
+    top: 70px;
     left: 0;
     right: 0;
     bottom: 0;
@@ -15,12 +15,7 @@ export const StyledLanding = styled.div`
     background-size: cover;
     background-repeat: no-repeat;
 
-    :before{
-        background-color: rgba(0, 0, 0, 0.5);
-        content: '';
-        display: block;
-        height: 100%;
-        position: absolute;
-        width: 100%;
-      }
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 `;
