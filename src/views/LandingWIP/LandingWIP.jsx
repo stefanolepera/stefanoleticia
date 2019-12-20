@@ -1,13 +1,12 @@
 import React from 'react';
-import { CTA } from '../../components';
-import { Title } from './components';
-import { StyledLanding } from './Landing.style';
+import { Title } from '../Landing/components';
+import { StyledLanding } from './LandingWIP.style';
 
 const Landing = () => {
     return (
         <StyledLanding>
             <Title text={'20 - 06 - 2020'} />
-            <CTA text={'RSVP'} />
+            <Title text={'Work in Progress'} />
         </StyledLanding>
     );
 };

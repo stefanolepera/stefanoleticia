@@ -1,6 +1,6 @@
 import React from 'react';
+import { Home } from './pages';
 import { MainWrapper, GlobalStyle } from './App.style';
-import Home from './pages/Home';
 
 function App() {
     return (
