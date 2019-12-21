@@ -7,5 +7,6 @@ export const MainWrapper = styled.div`
 export const GlobalStyle = createGlobalStyle`
   body {
     font-family: Roboto !important;
+    margin: 0 0;
   }
 `

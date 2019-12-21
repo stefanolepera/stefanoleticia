@@ -8,7 +8,7 @@ import detectBrowserLanguage from 'detect-browser-language';
 // import ProductValues from './modules/views/ProductValues';
 // import ProductHowItWorks from './modules/views/ProductHowItWorks';
 // import ProductCTA from './modules/views/ProductCTA';
-import { Header, Landing, LandingWIP } from '../../views';
+import { Header, Landing, LandingWIP, JoinUs } from '../../views';
 
 const Home = () => {
     const isWIP = false;
@@ -29,6 +29,7 @@ const Home = () => {
             {/* <HeaderBar changeLanguage={changeLanguage} /> */}
             <Header language={language} changeLanguage={changeLanguage} />
             <Landing />
+            <JoinUs />
             {/* <ProductHero />
             <ProductValues />
             <ProductCategories />
