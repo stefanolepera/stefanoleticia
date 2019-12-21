@@ -9,5 +9,6 @@ export const StyledHeader = styled.div`
     width: 100%;
     height: 70px;
     display: flex;
+    z-index: 2;
     align-items: center;
 `;

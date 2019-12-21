@@ -10,7 +10,6 @@ export const StyledLanding = styled.div`
     left: 0;
     right: 0;
     bottom: 0;
-    z-index: -2;
     position: absolute;
     background-size: cover;
     background-repeat: no-repeat;

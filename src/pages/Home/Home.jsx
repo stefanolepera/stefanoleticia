@@ -1,6 +1,7 @@
 // --- Post bootstrap -----
 import React, { useState } from 'react';
 import detectBrowserLanguage from 'detect-browser-language';
+import LocaleContext from '../../context/LocaleContext';
 // import ProductCategories from './modules/views/ProductCategories';
 // import ProductSmokingHero from './modules/views/ProductSmokingHero';
 // import AppFooter from './modules/views/AppFooter';
@@ -25,8 +26,7 @@ const Home = () => {
     }
 
     return (
-        <>
-            {/* <HeaderBar changeLanguage={changeLanguage} /> */}
+        <LocaleContext.Provider value={language}>
             <Header language={language} changeLanguage={changeLanguage} />
             <Landing />
             <JoinUs />
@@ -37,7 +37,7 @@ const Home = () => {
             <ProductCTA />
             <ProductSmokingHero />
             <AppFooter /> */}
-        </>
+        </LocaleContext.Provider>
     );
 };
 
