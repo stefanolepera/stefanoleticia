@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
 import LocaleContext from '../../context/LocaleContext';
-import { joinUsLocale } from '../../constants/Locale';
+import { IconInfo } from '../../components';
 import {
     StyledCard,
     StyledTitle,
@@ -19,6 +19,8 @@ const Card = ({ content }) => {
     return (
         <StyledCard>
             <StyledTitle>{content.title[lang]}</StyledTitle>
+            <IconInfo type={'time'} text={content.time} />
+            <IconInfo type={'address'} text={content.address} />
             <StyledDescription>{content.description[lang]}</StyledDescription>
             <StyledLink onClick={openLink}>{content.mapLink[lang]}</StyledLink>
         </StyledCard>

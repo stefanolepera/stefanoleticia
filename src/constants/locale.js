@@ -22,8 +22,10 @@ export const joinUsLocale = {
                 pt: `O cachorro come o livro.`,
                 es: `que passa amigo.`
             },
+            address: `Via di Sant'Andrea, 47, 00046 Grottaferrata (RM)`,
+            time: '20/06/2020, 5PM',
             mapLink: {
-                it: `Guarda mappa >`,
+                it: `Guarda la mappa >`,
                 en: `See location >`,
                 pt: `Map Portoguese >`,
                 es: `Map Spanish >`
@@ -43,8 +45,10 @@ export const joinUsLocale = {
                 pt: `O cachorro come o livro!`,
                 es: `que passa amigo!`
             },
+            address: `Via di Sant'Andrea, 47, 00046 Grottaferrata (RM)`,
+            time: '21/06/2020, 11AM',
             mapLink: {
-                it: `Guarda mappa >`,
+                it: `Guarda la mappa >`,
                 en: `See location >`,
                 pt: `Map Portoguese >`,
                 es: `Map Spanish >`
