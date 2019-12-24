@@ -1,6 +1,12 @@
 export const languages = ['it', 'en', 'pt', 'es'];
 
 export const joinUsLocale = {
+    title: {
+        it: `~ Ricevimento ~`,
+        en: `~ Location ~`,
+        pt: `~ Logo ~`,
+        es: `~ Logos ~`
+    },
     intro: {
         it: `Benvenuti a sti frocioni, belli grossi e capoccioni`,
         en: `Please join Stefano and Leticia on Saturday 20th June, 2020 as we celebrate our wedding in Rome, Italy.`,
@@ -55,4 +61,13 @@ export const joinUsLocale = {
             }
         }
     }
-}
+};
+
+export const galleryLocale = {
+    title: {
+        it: `~ Galleria ~`,
+        en: `~ Gallery ~`,
+        pt: `~ Gallerhia ~`,
+        es: `~ Gallerias ~`
+    }
+};

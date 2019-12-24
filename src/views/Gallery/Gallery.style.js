@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const StyledJoinUs = styled.div`
+export const StyledGallery = styled.div`
     padding-top: 1rem;
     min-height: 80vh;
     display: flex;

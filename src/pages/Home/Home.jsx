@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import detectBrowserLanguage from 'detect-browser-language';
 import LocaleContext from '../../context/LocaleContext';
-import { Header, Landing, LandingWIP, JoinUs } from '../../views';
+import { Header, Landing, LandingWIP, JoinUs, Gallery } from '../../views';
 
 const Home = () => {
     const isWIP = false;
@@ -21,6 +21,7 @@ const Home = () => {
             <Header language={language} changeLanguage={changeLanguage} />
             <Landing />
             <JoinUs />
+            <Gallery />
         </LocaleContext.Provider>
     );
 };
