@@ -1,5 +1,9 @@
 export const languages = ['it', 'en', 'pt', 'es'];
 
+export const isSupported = lang => {
+    return languages.indexOf(lang) !== -1 ? lang : 'en';
+};
+
 export const joinUsLocale = {
     title: {
         it: `~ Ricevimento ~`,
