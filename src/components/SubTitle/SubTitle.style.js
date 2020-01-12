@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { device } from '../../../../constants/Devices';
+import { device } from '../../constants/Devices';
 
 export const SubTitleWrapper = styled.p`
 font-size: 2rem;

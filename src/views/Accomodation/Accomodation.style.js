@@ -1,7 +1,6 @@
 import styled from 'styled-components';
 
-export const StyledGallery = styled.div`
-    background-color: #F6F7F8;
+export const StyledAccomodation = styled.div`
     padding-top: 1rem;
     min-height: 80vh;
     display: flex;

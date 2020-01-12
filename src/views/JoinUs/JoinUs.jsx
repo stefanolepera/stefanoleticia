@@ -1,8 +1,7 @@
 import React, { useContext } from 'react';
 import LocaleContext from '../../context/LocaleContext';
 import { StyledJoinUs } from './JoinUs.style';
-import { SubTitle } from './components';
-import { CardContainer, Title } from '../../components';
+import { CardContainer, Title, SubTitle } from '../../components';
 import { joinUsLocale } from '../../constants/Locale';
 
 const JoinUs = () => {

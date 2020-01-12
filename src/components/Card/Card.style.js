@@ -26,6 +26,7 @@ export const StyledLink = styled.p`
     color: #C51162;
     font-weight: 500;
     text-align: left;
+    cursor: pointer;
 
     :hover {
         text-decoration: underline;

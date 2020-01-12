@@ -10,5 +10,11 @@ export const StyledPhotoGrid = styled.div`
 
 export const StyleImage = styled.img`
     margin: 5px 0;
-    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+
+    :hover {
+        box-shadow: 0 3px 10px rgba(0, 0, 0, 0.5);
+    }
 `;

@@ -21,7 +21,7 @@ const PhotoGrid = () => {
                     <StyleImage
                         src={`images/gallery/thumb/${name}.jpg`}
                         alt={name}
-                        index={name}
+                        key={name}
                         onClick={() => openPopup(name)}
                     />
                 );

@@ -39,7 +39,8 @@ export const joinUsLocale = {
                 en: `See location >`,
                 pt: `Map Portoguese >`,
                 es: `Map Spanish >`
-            }
+            },
+            cta: 'https://www.google.com/maps/place/B%26B+Il+Pettirosso/@41.7992192,12.6312544,14z/data=!4m8!3m7!1s0x0:0x13a4e980539635a1!5m2!4m1!1i2!8m2!3d41.804625!4d12.640464'
         },
         pool: {
             img: 'pettirosso-pool.jpg',
@@ -57,6 +58,69 @@ export const joinUsLocale = {
             },
             address: `Via di Sant'Andrea, 47, 00046 Grottaferrata (RM)`,
             time: '21/06/2020, 11AM',
+            mapLink: {
+                it: `Guarda la mappa >`,
+                en: `See location >`,
+                pt: `Map Portoguese >`,
+                es: `Map Spanish >`
+            },
+            cta: 'https://www.google.com/maps/place/B%26B+Il+Pettirosso/@41.7992192,12.6312544,14z/data=!4m8!3m7!1s0x0:0x13a4e980539635a1!5m2!4m1!1i2!8m2!3d41.804625!4d12.640464'
+        }
+    }
+};
+
+export const accomodationLocale = {
+    title: {
+        it: `~ Alloggio ~`,
+        en: `~ Accomodation ~`,
+        pt: `~ Acc PT ~`,
+        es: `~ Acc ES ~`
+    },
+    intro: {
+        it: `Alberghi vicino alla cerimonia dove alloggiare`,
+        en: `Hotels near the venue to spend the nights`,
+        pt: `O cachorro come o hotel`,
+        es: `que passa amigo in hotel`
+    },
+    cards: {
+        verdeborgo: {
+            img: 'verdeborgo.png',
+            title: {
+                it: `HOTEL VERDEBORGO`,
+                en: `HOTEL VERDEBORGO`,
+                pt: `HOTEL VERDEBORGO`,
+                es: `HOTEL VERDEBORGO`
+            },
+            description: {
+                it: `Location ideale per chi desidera trascorre un soggiorno rilassante, circondato dalla natura.`,
+                en: `An ideal location for those seeking a relaxing stay, immersed in natural surroundings.`,
+                pt: `O cachorro come o verdeborgo.`,
+                es: `que passa amigo verdeborgo.`
+            },
+            address: `Via Anagnina, 10, 00046 Grottaferrata (RM)`,
+            mapLink: {
+                it: `Prenota >`,
+                en: `Book >`,
+                pt: `Book PT >`,
+                es: `Book ES >`
+            },
+            cta: 'https://www.hotelverdeborgo.it/en/'
+        },
+        pool: {
+            img: 'pettirosso-pool.jpg',
+            title: {
+                it: `FESTA IN PISCINA`,
+                en: `POOL PARTY`,
+                pt: `FESTA NA PISCINA`,
+                es: `LA FIESTA DE PISCINA`
+            },
+            description: {
+                it: `Il giorno dopo il matrimonio, nella stessa location, si terra' una festa in piscina con barbecue ... non scordatevi il costume!`,
+                en: `The next day, in the same location, will take place a pool party with a bbq ... don't forget to bring your swimming costume!`,
+                pt: `O cachorro come o livro!`,
+                es: `que passa amigo!`
+            },
+            address: `Via di Sant'Andrea, 47, 00046 Grottaferrata (RM)`,
             mapLink: {
                 it: `Guarda la mappa >`,
                 en: `See location >`,

@@ -2,7 +2,14 @@ import React, { useState } from 'react';
 import detectBrowserLanguage from 'detect-browser-language';
 import LocaleContext from '../../context/LocaleContext';
 import { isSupported } from '../../constants/Locale';
-import { Header, Landing, LandingWIP, JoinUs, Gallery } from '../../views';
+import {
+    Header,
+    Landing,
+    LandingWIP,
+    JoinUs,
+    Gallery,
+    Accomodation
+} from '../../views';
 
 const Home = () => {
     const isWIP = false;
@@ -23,6 +30,7 @@ const Home = () => {
             <Landing />
             <JoinUs />
             <Gallery />
+            <Accomodation />
         </LocaleContext.Provider>
     );
 };
