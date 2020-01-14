@@ -139,3 +139,70 @@ export const galleryLocale = {
         es: `~ Gallerias ~`
     }
 };
+
+export const rsvpLocale = {
+    title: `~ RSVP ~`,
+    intro: {
+        it: `Non vediamo l'ora di festeggiare con voi!`,
+        en: `We're so excited to celebrate with you!`,
+        pt: `celebrate PT`,
+        es: `celebrate ES`
+    },
+    subIntro: {
+        it: `SI PREGA DI CONFERMARE ENTRO IL 20 APRILE, 2020`,
+        en: `KINDLY RESPOND BY APRIL 20, 2020`,
+        pt: `RESPOND BY PT`,
+        es: `RESPOND BY ES`
+    },
+    submitted: {
+        it: `GRAZIE PER AVER COMPILATO IL FORM!`,
+        en: `THANKS FOR SUBMITTING THE FORM!`,
+        pt: `OBRIGADO!`,
+        es: `GRACIAS!`
+    },
+    form: {
+        email: 'Email',
+        firstName: {
+            it: `Nome`,
+            en: `First Name`,
+            pt: `First Name PT`,
+            es: `First Name ES`
+        },
+        lastName: {
+            it: `Cognome`,
+            en: `Last Name`,
+            pt: `Last Name PT`,
+            es: `Last Name ES`
+        },
+        attending: {
+            it: `Sarai presente?`,
+            en: `Are you attending?`,
+            pt: `Are you attending? PT`,
+            es: `Are you attending? ES`
+        },
+        others: {
+            it: `Chi altro viene con te?`,
+            en: `Who else is coming with you?`,
+            pt: `Who else is coming with you? PT`,
+            es: `Who else is coming with you? ES`
+        },
+        notes: {
+            it: `Note`,
+            en: `Notes`,
+            pt: `Notes PT`,
+            es: `Notes ES`
+        },
+        yes: {
+            it: `Si`,
+            en: `Yes`,
+            pt: `Sim`,
+            es: `Si`
+        },
+        no: {
+            it: `No`,
+            en: `No`,
+            pt: `Não`,
+            es: `No`
+        }
+    }
+};

@@ -15,7 +15,7 @@ export const StyledTitle = styled.p`
 `;
 
 export const StyledDescription = styled.p`
-    margin: 10px 0 20px 20px;
+    margin: 10px 10px 20px 20px;
     font-size: 1.1rem;
     text-align: left;
     color: #767878;

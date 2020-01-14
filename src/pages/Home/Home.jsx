@@ -8,7 +8,8 @@ import {
     LandingWIP,
     JoinUs,
     Gallery,
-    Accomodation
+    Accomodation,
+    Rsvp
 } from '../../views';
 
 const Home = () => {
@@ -31,6 +32,7 @@ const Home = () => {
             <JoinUs />
             <Gallery />
             <Accomodation />
+            <Rsvp />
         </LocaleContext.Provider>
     );
 };
