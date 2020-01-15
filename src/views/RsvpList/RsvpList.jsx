@@ -14,30 +14,13 @@ const RsvpList = () => {
         });
     }, []);
 
-    const formattedData = dataToformat => {
-        return Object.entries(dataToformat || {}).map(listItem => {
-            return {
-                key: listItem[0],
-                value: listItem[1]
-            };
-        });
-    };
-
     if (loading) {
         return <div>Loading ...</div>;
     }
 
     return (
         <StyledRsvpList>
-            {formattedData(data).map(item => {
-                return (
-                    <RsvpListItem
-                        key={item.key}
-                        firebaseKey={item.key}
-                        data={item.value}
-                    />
-                );
-            })}
+            <RsvpListItem data={data} />
         </StyledRsvpList>
     );
 };

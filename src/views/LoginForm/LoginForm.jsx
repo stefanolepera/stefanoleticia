@@ -48,7 +48,7 @@ const LoginForm = ({ handleSubmit }) => {
                                         required
                                         name="password"
                                         component={TextField}
-                                        type="text"
+                                        type="password"
                                         label="Password"
                                         variant="outlined"
                                     />

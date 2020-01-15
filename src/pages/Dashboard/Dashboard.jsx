@@ -6,11 +6,8 @@ import { Title } from '../../components';
 const Dashboard = () => {
     const [logged, setLogged] = useState(false);
 
-    // useEffect(() => {
-    //     setLogged(firebase.isLoggedIn());
-    // }, [logged]);
-
     useEffect(() => {
+        // firebase.signOut();
         firebase.onLoginChange(firebaseData => {
             if (firebaseData) {
                 setLogged(firebase.isLoggedIn());

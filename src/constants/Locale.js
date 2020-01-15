@@ -206,3 +206,13 @@ export const rsvpLocale = {
         }
     }
 };
+
+export const dashboardLocale = {
+    firstName: 'First Name',
+    lastName: 'Last Name',
+    email: 'Email',
+    attending: 'Attending',
+    others: 'Others',
+    notes: 'Notes',
+    time: 'Time'
+};
