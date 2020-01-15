@@ -18,7 +18,6 @@ const RsvpForm = ({ handleSubmit }) => {
     const lang = useContext(LocaleContext);
 
     const onSubmit = values => {
-        // handleSubmit(JSON.stringify(values, 0, 2));
         handleSubmit(values);
     };
 

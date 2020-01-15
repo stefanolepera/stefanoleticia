@@ -2,6 +2,7 @@
 import firebase from 'firebase/app';
 // Import database functions, because we plan on using them
 import 'firebase/database';
+import 'firebase/auth';
 
 // Set the configuration for your app
 const firebaseConfig = {
@@ -71,9 +72,75 @@ const remove = (keyToUpdate = '') => {
     databaseRef.remove();
 }
 
+/**
+ * Gets the current user from Firebase
+ * @returns {Object|undefined}
+ */
+const getCurrentUser = () => {
+    return firebase.auth().currentUser;
+}
+
+/**
+ * Tests if the user is logged in or not
+ * @returns {boolean}
+ */
+const isLoggedIn = () => {
+    if (firebase.auth().currentUser) {
+        return true;
+    }
+
+    return false;
+}
+
+/**
+ * Try to login to Firebase using an email and password
+ * @param {string} email
+ * @param {string} password
+ * @returns {Promise}
+ */
+const signIn = (email, password) => {
+    return firebase.auth().signInWithEmailAndPassword(email, password)
+}
+
+/**
+ * Creates a listener for when the login state changes
+ * @param {Function} callbackFunction
+ */
+const onLoginChange = (callbackFunction = () => {}) => {
+    const authRef = firebase.auth().onAuthStateChanged((user) => {
+        callbackFunction(user);
+    });
+
+    return authRef;
+}
+
+/**
+ * Signs the current user out
+ * @returns {Promise}
+ */
+const signOut = () => {
+    return firebase.auth().signOut();
+}
+
+/**
+ * Creates a user with an email and password in Firebase.
+ * Will automatically log them in when this is successful
+ * @param {string} email
+ * @param {string} password
+ */
+const createUser = (email, password) => {
+    return firebase.auth().createUserWithEmailAndPassword(email, password)
+}
+
 export default {
     writeTo,
     listenTo,
     update,
-    remove
+    remove,
+    getCurrentUser,
+    isLoggedIn,
+    signIn,
+    onLoginChange,
+    signOut,
+    createUser
 }

@@ -5,3 +5,5 @@ export { default as JoinUs } from './JoinUs/JoinUs';
 export { default as Accomodation } from './Accomodation/Accomodation';
 export { default as Gallery } from './Gallery/Gallery';
 export { default as Rsvp } from './Rsvp/Rsvp';
+export { default as RsvpList } from './RsvpList/RsvpList';
+export { default as LoginForm } from './LoginForm/LoginForm';

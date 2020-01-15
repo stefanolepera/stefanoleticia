@@ -1,12 +1,22 @@
 import React from 'react';
-import { Home } from './pages';
+import { Home, Dashboard } from './pages';
 import { MainWrapper, GlobalStyle } from './App.style';
+import { BrowserRouter, Switch, Route } from 'react-router-dom';
 
 function App() {
     return (
         <MainWrapper>
             <GlobalStyle />
-            <Home />
+            <BrowserRouter>
+                <Switch>
+                    <Route exact path="/dashboard">
+                        <Dashboard />
+                    </Route>
+                    <Route exact path="/">
+                        <Home />
+                    </Route>
+                </Switch>
+            </BrowserRouter>
         </MainWrapper>
     );
 }
