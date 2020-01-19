@@ -142,7 +142,7 @@ const RsvpForm = ({ handleSubmit }) => {
                                         type="submit"
                                         disabled={submitting}
                                     >
-                                        Submit
+                                        {rsvpLocale.form.submit[lang]}
                                     </Button>
                                 </Grid>
                             </Grid>

@@ -12,7 +12,7 @@ export const joinUsLocale = {
         es: `~ Logos ~`
     },
     intro: {
-        it: `Benvenuti a sti frocioni, belli grossi e capoccioni`,
+        it: `Saremo lieti di avervi con noi Sabato 20 Giugno, 2020 al nostro matrimonio a Roma.`,
         en: `Please join Stefano and Leticia on Saturday 20th June, 2020 as we celebrate our wedding in Rome, Italy.`,
         pt: `O cachorro come o livro`,
         es: `que passa amigo`
@@ -122,11 +122,12 @@ export const accomodationLocale = {
             },
             address: `Via di Sant'Andrea, 47, 00046 Grottaferrata (RM)`,
             mapLink: {
-                it: `Guarda la mappa >`,
-                en: `See location >`,
-                pt: `Map Portoguese >`,
-                es: `Map Spanish >`
-            }
+                it: `Prenota >`,
+                en: `Book >`,
+                pt: `Book PT >`,
+                es: `Book ES >`
+            },
+            cta: 'https://www.hotelverdeborgo.it/en/'
         }
     }
 };
@@ -139,6 +140,42 @@ export const galleryLocale = {
         es: `~ Gallerias ~`
     }
 };
+
+export const giftLocale = {
+    title: {
+        it: `~ Lista di Nozze ~`,
+        en: `~ Gift List ~`,
+        pt: `~ Gift PT ~`,
+        es: `~ Gift ES ~`
+    },
+    intro: {
+        it: `Apprezziamo molto se volete contribuire ai nostri risparmi per la futura casa e per la luna di miele. Ecco diverse opzioni che potete usare per contribuire:`,
+        en: `Instead of gifts we would really appreciate contributions to our savings for the future house and our honeymoon. Here are few options you can use to make a donation:`,
+        pt: `Options PT`,
+        es: `Options ES`
+    },
+    giftList: [
+        {
+            title: 'Paypal',
+            address: 'paypal.me/StefanoLePera',
+            url: 'https://www.paypal.me/StefanoLePera'
+        },
+        {
+            title: 'IT Bank Transfer',
+            name: 'Stefano Le Pera',
+            bank: 'Fineco Bank',
+            IBAN: 'IT33O0301503200000003275016'
+        },
+        {
+            title: 'UK Bank Transfer',
+            name: 'Stefano Le Pera',
+            bank: 'Barclays Bank',
+            IBAN: 'GB18BUKB20944873119718',
+            account: '73119718',
+            sortCode: '20-94-48'
+        }
+    ]
+}
 
 export const rsvpLocale = {
     title: `~ RSVP ~`,
@@ -203,6 +240,12 @@ export const rsvpLocale = {
             en: `No`,
             pt: `Não`,
             es: `No`
+        },
+        submit: {
+            it: `Invia`,
+            en: `Submit`,
+            pt: `Submit PT`,
+            es: `Submit ES`
         }
     }
 };

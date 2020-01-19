@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 
-export const StyledRsvp = styled.div`
+export const StyledGift = styled.div`
+    background-color: #F6F7F8;
     padding: 1rem 0;
     min-height: 80vh;
     display: flex;
@@ -9,6 +10,7 @@ export const StyledRsvp = styled.div`
     align-items: center;
 `;
 
-export const StyledP = styled.p`
-    font-weight: 600;
+export const StyledGiftList = styled.div`
+    display: flex;
+    flex-direction: column;
 `;

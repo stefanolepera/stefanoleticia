@@ -9,7 +9,9 @@ import {
     JoinUs,
     Gallery,
     Accomodation,
-    Rsvp
+    Gift,
+    Rsvp,
+    Footer
 } from '../../views';
 
 const Home = () => {
@@ -32,7 +34,9 @@ const Home = () => {
             <JoinUs />
             <Gallery />
             <Accomodation />
+            <Gift />
             <Rsvp />
+            <Footer />
         </LocaleContext.Provider>
     );
 };
