@@ -5,7 +5,7 @@ import { StyledLanding } from './Landing.style';
 
 const Landing = () => {
     return (
-        <StyledLanding>
+        <StyledLanding id="section1">
             <Title text={'20 - 06 - 2020'} />
             <CTA text={'RSVP'} />
         </StyledLanding>

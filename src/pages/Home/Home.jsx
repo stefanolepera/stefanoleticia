@@ -6,7 +6,7 @@ import {
     Header,
     Landing,
     LandingWIP,
-    JoinUs,
+    Location,
     Gallery,
     Accomodation,
     Gift,
@@ -31,7 +31,7 @@ const Home = () => {
         <LocaleContext.Provider value={language}>
             <Header language={language} changeLanguage={changeLanguage} />
             <Landing />
-            <JoinUs />
+            <Location />
             <Gallery />
             <Accomodation />
             <Gift />

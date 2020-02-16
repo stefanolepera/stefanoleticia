@@ -7,7 +7,7 @@ import { accomodationLocale } from '../../constants/Locale';
 const Accomodation = () => {
     const lang = useContext(LocaleContext);
     return (
-        <StyledAccomodation>
+        <StyledAccomodation id="accomodation">
             <Title text={accomodationLocale.title[lang]} />
             <SubTitle text={accomodationLocale.intro[lang]} />
             <CardContainer content={accomodationLocale.cards.verdeborgo} />

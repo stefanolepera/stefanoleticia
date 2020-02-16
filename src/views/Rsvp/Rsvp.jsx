@@ -14,13 +14,14 @@ const Rsvp = () => {
         const itemToSend = {
             time: new Date().toLocaleString('en-gb')
         };
+
         Object.entries(values).map(value => (itemToSend[value[0]] = value[1]));
         firebase.writeTo('messages', itemToSend);
         setSubmitted(true);
     };
 
     return (
-        <StyledRsvp>
+        <StyledRsvp id="rsvp">
             <Title text={rsvpLocale.title} />
             <SubTitle text={rsvpLocale.intro[lang]} />
             <StyledP>{rsvpLocale.subIntro[lang]}</StyledP>

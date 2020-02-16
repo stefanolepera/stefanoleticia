@@ -1,12 +1,12 @@
 import React from 'react';
-import Logo from './components/Logo/Logo';
-import Flags from './components/Flags/Flags';
+import { NavBar, Drawer, Flags } from './components/';
 import { StyledHeader } from './Header.style';
 
 const Header = ({ language, changeLanguage }) => {
     return (
         <StyledHeader>
-            <Logo />
+            <Drawer />
+            <NavBar />
             <Flags language={language} changeLanguage={changeLanguage} />
         </StyledHeader>
     );

@@ -8,7 +8,7 @@ import { galleryLocale } from '../../constants/Locale';
 const Gallery = () => {
     const lang = useContext(LocaleContext);
     return (
-        <StyledGallery>
+        <StyledGallery id="gallery">
             <Title text={galleryLocale.title[lang]} />
             <PhotoGrid />
         </StyledGallery>

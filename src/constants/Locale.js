@@ -4,7 +4,40 @@ export const isSupported = lang => {
     return languages.indexOf(lang) !== -1 ? lang : 'en';
 };
 
-export const joinUsLocale = {
+export const navLocale = {
+    location: {
+        it: `Ricevimento`,
+        en: `Location`,
+        pt: `Logo`,
+        es: `Logos`
+    },
+    gallery: {
+        it: `Galleria`,
+        en: `Gallery`,
+        pt: `Gallerhia`,
+        es: `Gallerias`
+    },
+    accomodation: {
+        it: `Alloggio`,
+        en: `Accomodation`,
+        pt: `Accomodationh`,
+        es: `Accomodations`
+    },
+    gift: {
+        it: `Lista di Nozze`,
+        en: `Gift List`,
+        pt: `Regalu`,
+        es: `Regalos`
+    },
+    rsvp: {
+        it: `RSVP`,
+        en: `RSVP`,
+        pt: `RSVP`,
+        es: `RSVP`
+    }
+};
+
+export const locationLocale = {
     title: {
         it: `~ Ricevimento ~`,
         en: `~ Location ~`,
