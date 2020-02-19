@@ -1,5 +1,5 @@
 import React, { useContext } from 'react';
-import { Link, animateScroll as scroll } from 'react-scroll';
+import { Link } from 'react-scroll';
 import { StyledNavBar, StyledLinkContainer } from './NavBar.style';
 import { navLocale } from '../../../../constants/Locale';
 import { sections } from '../../../../constants/Config';
@@ -7,10 +7,6 @@ import LocaleContext from '../../../../context/LocaleContext';
 
 const NavBar = () => {
     const lang = useContext(LocaleContext);
-
-    const scrollToTop = () => {
-        scroll.scrollToTop();
-    };
 
     return (
         <StyledNavBar>

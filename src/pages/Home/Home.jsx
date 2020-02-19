@@ -1,7 +1,9 @@
 import React, { useState } from 'react';
 import detectBrowserLanguage from 'detect-browser-language';
 import LocaleContext from '../../context/LocaleContext';
+import { animateScroll as scroll } from 'react-scroll';
 import { isSupported } from '../../constants/Locale';
+import { TopArrow } from '../../components';
 import {
     Header,
     Landing,
@@ -18,6 +20,10 @@ const Home = () => {
     const isWIP = false;
     const lang = isSupported(detectBrowserLanguage().split('-')[0]);
     const [language, setLanguage] = useState(lang);
+
+    const scrollToTop = () => {
+        scroll.scrollToTop();
+    };
 
     const changeLanguage = lang => {
         setLanguage(lang);
@@ -37,6 +43,7 @@ const Home = () => {
             <Gift />
             <Rsvp />
             <Footer />
+            <TopArrow scrollTop={scrollToTop} />
         </LocaleContext.Provider>
     );
 };
