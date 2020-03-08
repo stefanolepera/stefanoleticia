@@ -11,7 +11,7 @@ const Accomodation = () => {
             <Title text={accomodationLocale.title[lang]} />
             <SubTitle text={accomodationLocale.intro[lang]} />
             <CardContainer content={accomodationLocale.cards.verdeborgo} />
-            <CardContainer content={accomodationLocale.cards.pool} />
+            <CardContainer content={accomodationLocale.cards.villagrazioli} />
         </StyledAccomodation>
     );
 };

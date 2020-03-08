@@ -110,14 +110,14 @@ export const accomodationLocale = {
         es: `~ Acc ES ~`
     },
     intro: {
-        it: `Alberghi vicino alla cerimonia dove alloggiare`,
-        en: `Hotels near the venue to spend the nights`,
+        it: `Alberghi vicino alla cerimonia dove alloggiare.`,
+        en: `Hotels near the venue to spend the nights.`,
         pt: `O cachorro come o hotel`,
         es: `que passa amigo in hotel`
     },
     cards: {
         verdeborgo: {
-            img: 'verdeborgo.png',
+            img: 'verdeborgo.jpg',
             title: {
                 it: `HOTEL VERDEBORGO`,
                 en: `HOTEL VERDEBORGO`,
@@ -130,7 +130,7 @@ export const accomodationLocale = {
                 pt: `O cachorro come o verdeborgo.`,
                 es: `que passa amigo verdeborgo.`
             },
-            address: `Via Anagnina, 10, 00046 Grottaferrata (RM)`,
+            address: `Via Anagnina, 10, 00046 Grottaferrata`,
             mapLink: {
                 it: `Prenota >`,
                 en: `Book >`,
@@ -139,28 +139,28 @@ export const accomodationLocale = {
             },
             cta: 'https://www.hotelverdeborgo.it/en/'
         },
-        pool: {
-            img: 'pettirosso-pool.jpg',
+        villagrazioli: {
+            img: 'villagrazioli.jpg',
             title: {
-                it: `FESTA IN PISCINA`,
-                en: `POOL PARTY`,
-                pt: `FESTA NA PISCINA`,
-                es: `LA FIESTA DE PISCINA`
+                it: `HOTEL VILLA GRAZIOLI`,
+                en: `HOTEL VILLA GRAZIOLI`,
+                pt: `HOTEL VILLA GRAZIOLI`,
+                es: `HOTEL VILLA GRAZIOLI`
             },
             description: {
-                it: `Il giorno dopo il matrimonio, nella stessa location, si terra' una festa in piscina con barbecue ... non scordatevi il costume!`,
-                en: `The next day, in the same location, will take place a pool party with a bbq ... don't forget to bring your swimming costume!`,
-                pt: `O cachorro come o livro!`,
+                it: `Il Park Hotel Villa Grazioli è un’antica villa cardinalizia situata in posizione panoramica sul colle del Tuscolo vicino a Frascati.`,
+                en: `Park Hotel Villa Grazioli is an ancient cardinal villa situated in a panoramic position on the Tusculum hill near Frascati.`,
+                pt: `O cachorro come a villa!`,
                 es: `que passa amigo!`
             },
-            address: `Via di Sant'Andrea, 47, 00046 Grottaferrata (RM)`,
+            address: `Via Umberto Pavoni, 19, 00046 Grottaferrata`,
             mapLink: {
                 it: `Prenota >`,
                 en: `Book >`,
                 pt: `Book PT >`,
                 es: `Book ES >`
             },
-            cta: 'https://www.hotelverdeborgo.it/en/'
+            cta: 'https://www.villagrazioli.com/en/'
         }
     }
 };
