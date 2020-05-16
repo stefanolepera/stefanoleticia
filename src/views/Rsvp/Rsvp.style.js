@@ -11,4 +11,5 @@ export const StyledRsvp = styled.div`
 
 export const StyledP = styled.p`
     font-weight: 600;
+    margin: 0 5px;
 `;

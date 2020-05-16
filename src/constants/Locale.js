@@ -14,8 +14,8 @@ export const navLocale = {
     gallery: {
         it: `Galleria`,
         en: `Gallery`,
-        pt: `Album fotografico`,
-        es: `Álbum fotografico`
+        pt: `Fotos`,
+        es: `Fotos`
     },
     accomodation: {
         it: `Alloggio`,
@@ -157,7 +157,7 @@ export const accomodationLocale = {
             mapLink: {
                 it: `Prenota >`,
                 en: `Book >`,
-                pt: `Reserve>`,
+                pt: `Reserve >`,
                 es: `Reservar Ahora >`
             },
             cta: 'https://www.villagrazioli.com/en/'
@@ -169,8 +169,8 @@ export const galleryLocale = {
     title: {
         it: `~ Galleria ~`,
         en: `~ Gallery ~`,
-        pt: `~ Album fotografico ~`,
-        es: `~ Álbum fotografico ~`
+        pt: `~ Fotos ~`,
+        es: `~ Fotos ~`
     }
 };
 
