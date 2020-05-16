@@ -45,10 +45,10 @@ export const locationLocale = {
         es: `~ Ubicación ~`
     },
     intro: {
-        it: `Saremo lieti di avervi con noi Sabato 20 Giugno, 2020 al nostro matrimonio a Roma.`,
-        en: `Please join Stefano and Leticia on Saturday 20th June, 2020 as we celebrate our wedding in Rome, Italy.`,
-        pt: `Gostaríamos muito de festejar nosso casamento com a Vossa Presença no dia 20 de Junho de 2020 em Roma, Itália.`,
-        es: `Con la Bendición de Dios nos gustaría celebrar nuestra bodas con Ustedes en el dia 20 de Junio de 2020 en Roma, Italia.`
+        it: `Saremo lieti di avervi con noi Sabato 29 Maggio, 2021 al nostro matrimonio a Roma.`,
+        en: `Please join Stefano and Leticia on Saturday 29th May, 2021 as we celebrate our wedding in Rome, Italy.`,
+        pt: `Gostaríamos muito de festejar nosso casamento com a Vossa Presença no dia 29 de Maio de 2021 em Roma, Itália.`,
+        es: `Con la Bendición de Dios nos gustaría celebrar nuestra bodas con Ustedes en el dia 29 de Mayo de 2021 en Roma, Italia.`
     },
     cards: {
         location: {
@@ -66,7 +66,7 @@ export const locationLocale = {
                 es: `Ceremonia, cena y fiesta de bodas será’ en esta bellissima Villa en Grottaferrata.`
             },
             address: `Via di Sant'Andrea, 47, 00046 Grottaferrata (RM)`,
-            time: '20/06/2020, 5PM',
+            time: '29/05/2021, 5PM',
             mapLink: {
                 it: `Guarda la mappa >`,
                 en: `See location >`,
@@ -90,7 +90,7 @@ export const locationLocale = {
                 es: `En el dia siguiente, en el mismo lugar, vamos a tener una fiesta con barbecue en la piscina!`
             },
             address: `Via di Sant'Andrea, 47, 00046 Grottaferrata (RM)`,
-            time: '21/06/2020, 11AM',
+            time: '30/05/2021, 11AM',
             mapLink: {
                 it: `Guarda la mappa >`,
                 en: `See location >`,
@@ -219,10 +219,10 @@ export const rsvpLocale = {
         es: `No vemos la hora para celebrar con usted!`
     },
     subIntro: {
-        it: `SI PREGA DI CONFERMARE ENTRO IL 20 APRILE, 2020`,
-        en: `KINDLY RESPOND BY APRIL 20, 2020`,
-        pt: `POR FAVOR CONFIRME SUA PRESENÇA ENTRE O DIA 20 DE ABRIL DE 2020`,
-        es: `POR FAVOR CONFIRME TU PRESENCIA HASTA EL DIA 20 DE ABRIL DE 2020`
+        it: `SI PREGA DI CONFERMARE ENTRO IL 1 APRILE, 2020`,
+        en: `KINDLY RESPOND BY APRIL 1, 2020`,
+        pt: `POR FAVOR CONFIRME SUA PRESENÇA ENTRE O DIA 1 DE ABRIL DE 2020`,
+        es: `POR FAVOR CONFIRME TU PRESENCIA HASTA EL DIA 1 DE ABRIL DE 2020`
     },
     submitted: {
         it: `GRAZIE PER AVER COMPILATO IL FORM!`,

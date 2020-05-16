@@ -25,7 +25,7 @@ const Home = () => {
         scroll.scrollToTop();
     };
 
-    const changeLanguage = lang => {
+    const changeLanguage = (lang) => {
         setLanguage(lang);
     };
 
